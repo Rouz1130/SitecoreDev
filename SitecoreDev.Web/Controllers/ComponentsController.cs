@@ -15,13 +15,13 @@ namespace SitecoreDev.Web.Controllers
         public ViewResult HeroSlider()
         {
             Item contentItem = null;
-            var datbase = Context.Database;
-            if (datbase !=null)
+            var database = Context.Database;
+            if (database !=null)
             {
                 if(!String.IsNullOrEmpty(
                     RenderingContext.Current.Rendering.DataSource))
                 {
-                    contentItem = datbase.GetItem(new Sitecore.Data.ID(
+                    contentItem = database.GetItem(new Sitecore.Data.ID(
                         RenderingContext.Current.Rendering.DataSource));
                 }
             }
