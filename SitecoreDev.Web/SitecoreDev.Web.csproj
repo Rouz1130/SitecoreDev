@@ -111,6 +111,7 @@
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\DefaultMVCLayout.cshtml" />
+    <Content Include="Views\Components\AdditionalTextView.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

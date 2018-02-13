@@ -1,4 +1,4 @@
-﻿@using Sitecore.Mvc
+﻿@@using Sitecore.Mvc
 @*@using Sitecore.Mvc.Analytics.Extensions*@
 @{
     Layout = null;
@@ -7,7 +7,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
-    @Html.Sitecore().VisitorIdentification()
+    @*@Html.Sitecore().VisitorIdentification()*@
 </head>
 <body>
     <h1>@Html.Sitecore().Field("title")</h1>
